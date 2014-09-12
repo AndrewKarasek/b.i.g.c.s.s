@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #type-scale
+\*------------------------------------*/
+
+/* use modular type scale */
+
+$baseSize: 1rem;
+$ratio: 1.618; /* golden ratio */
+/* OTHER RATIOS */
+
+/*
+
+
+
+
+
+
+*/
+
+$type-0: $baseSize;
+$type-1: $ratio;
+$type-2: ($ratio * 2) - baseSize;
+$type-3: 0.8em;
+$type-4: 1em;
+$type-5: 1.2em;
+$type-6: 1.4em;
+$type-7: 1.6em;
+$type-8: 1.8em;
+$type-9: 2em;
+$type-10: 2.2em;
